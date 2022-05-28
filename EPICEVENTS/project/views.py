@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import permission_required
 from django.shortcuts import get_object_or_404
 from rest_framework import status
 from rest_framework.response import Response
@@ -8,8 +9,35 @@ from .models import Client, Contract, Event
 from .serializers import ClientListSerializer, ClientDetailSerializer, ContractListSerializer, \
     ContractDetailSerializer, EventSerializer
 
+from .permissions import IsSalesContact, IsSupportContactOrSalesContact
 
-class ClientListView(APIView):
+
+class MiximViews:
+    """
+       mixim class which provides the different views with the methods to obtain the client and contract
+    """
+
+    permission_classes = [IsSalesContact]
+
+    def get_client(self, request, id):
+        clients = Client.objects.all()
+        client = get_object_or_404(clients, id=id)
+        return client
+
+    def get_client_contract(self, request, client_id, contract_id):
+        client = self.get_client(request, client_id)
+        contracts = Contract.objects.filter(client=client)
+        contract = get_object_or_404(contracts, id=contract_id)
+        return contract
+
+
+class ClientListView(MiximViews, APIView):
+
+    """
+        Class that provides methods for client :
+               - get the list of clients.
+               - create a new client.
+    """
 
     def get(self, request):
         clients = Client.objects.all()
@@ -17,41 +45,54 @@ class ClientListView(APIView):
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     def post(self, request):
-        serializer = ClientListSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save(sales_contact=request.user)
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        user = request.user
+        if user.team == 'SALE':
+            serializer = ClientListSerializer(data=request.data)
+            if serializer.is_valid():
+                serializer.save(sales_contact=request.user)
+                return Response(serializer.data, status=status.HTTP_201_CREATED)
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        return Response("You do not have permission to perform this action.", status=status.HTTP_403_FORBIDDEN)
 
 
-class ClientDetailView(APIView):
+class ClientDetailView(MiximViews, APIView):
+    """
+        Class that provides methods for client :
+                - get the details of a client.
+                - update client data.
+    """
 
     def get(self, request, id):
-        clients = Client.objects.all()
-        client = get_object_or_404(clients, id=id)
+        client = self.get_client(request, id=id)
         serializer = ClientDetailSerializer(client)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     def put(self, request, id):
-        clients = Client.objects.all()
-        client = get_object_or_404(clients, id=id)
+        client = self.get_client(request, id=id)
+        self.check_object_permissions(request, client)
         serializer = ClientListSerializer(client, data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_200_OK)
 
 
-class ClientContractsList(APIView):
+class ClientContractsList(MiximViews, APIView):
+
+    """
+        Class that provides methods for contract :
+                - get a client contracts list.
+                - create a contract for a client.
+    """
 
     def get(self, request, id):
-        clients = Client.objects.all()
-        client = get_object_or_404(clients, id=id)
+        client = self.get_client(request, id=id)
         contracts = Contract.objects.filter(client=client)
         serializer = ContractListSerializer(contracts, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     def post(self, request, id):
-        clients = Client.objects.all()
-        client = get_object_or_404(clients, id=id)
+        client = self.get_client(request, id=id)
+        self.check_object_permissions(request, client)
         serializer = ContractListSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save(client=client, sales_contact=request.user)
@@ -59,26 +100,27 @@ class ClientContractsList(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-class UpdateClientContract(APIView):
+class UpdateClientContract(MiximViews, APIView):
+    """
+        Class that provides methods for contract :
+                - create an event for a contract.
+                - update contract data.
+    """
 
+    # add event to contract
     def post(self, request, client_id, contract_id):
-        clients = Client.objects.all()
-        client = get_object_or_404(clients, id=client_id)
-        contracts = Contract.objects.filter(client=client.id)
-        contract = get_object_or_404(contracts, id=contract_id)
-        if contract.status:
+        contract = self.get_client_contract(request, client_id, contract_id)
+        if contract.status and request.user.team == 'SALE':
             serializer = EventSerializer(data=request.data)
             if serializer.is_valid():
-                serializer.save(client=client, contract=contract)
+                serializer.save(client=contract.client, contract=contract)
                 return Response(serializer.data, status=status.HTTP_201_CREATED)
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         return Response("This contract is not yet signed")
 
     def put(self, request, client_id, contract_id):
-        clients = Client.objects.all()
-        client = get_object_or_404(clients, id=client_id)
-        contracts = Contract.objects.filter(client=client.id)
-        contract = get_object_or_404(contracts, id=contract_id)
+        contract = self.get_client_contract(request, client_id, contract_id)
+        self.check_object_permissions(request, contract)
         serializer = ContractListSerializer(contract, data=request.data)
         if serializer.is_valid():
             serializer.save()
@@ -86,23 +128,21 @@ class UpdateClientContract(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-class SignContract(APIView):
+class SignContract(MiximViews, APIView):
+    """ mark that an contract is signed """
 
     def post(self, request, client_id, contract_id):
-        clients = Client.objects.all()
-        client = get_object_or_404(clients, id=client_id)
-        contracts = Contract.objects.filter(client=client.id)
-        contract = get_object_or_404(contracts, id=contract_id)
+        contract = self.get_client_contract(request, client_id, contract_id)
+        self.check_object_permissions(request, contract)
         contract.signed()
         serializer = ContractDetailSerializer(contract)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
 
-class ClientEventList(APIView):
+class ClientEventList(MiximViews, APIView):
 
     def get(self, request, id):
-        clients = Client.objects.all()
-        client = get_object_or_404(clients, id=id)
+        client = self.get_client(request, id=id)
         events = Event.objects.filter(client=client)
         serializer = EventSerializer(events, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
@@ -132,12 +172,18 @@ class EventListView(APIView):
         serializer = EventSerializer(events, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
-
 class EventDetailView(APIView):
+    """
+        Class that provides methods for event :
+               - update event data.
+               - mark that an event is finished.
+    """
+    permission_classes = [IsSupportContactOrSalesContact]
 
     def put(self, request, id):
         events = Event.objects.all()
         event = get_object_or_404(events, id=id)
+        self.check_object_permissions(request, event)
         serializer = EventSerializer(event, data=request.data)
         if serializer.is_valid():
             serializer.save()
@@ -147,6 +193,7 @@ class EventDetailView(APIView):
     def post(self, request, id):
         events = Event.objects.all()
         event = get_object_or_404(events, id=id)
+        self.check_object_permissions(request, event)
         event.close()
         serializer = EventSerializer(event)
         return Response(serializer.data, status=status.HTTP_200_OK)

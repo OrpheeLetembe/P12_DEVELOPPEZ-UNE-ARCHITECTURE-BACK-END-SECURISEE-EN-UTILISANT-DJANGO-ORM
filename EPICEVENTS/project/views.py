@@ -107,7 +107,7 @@ class UpdateClientContract(MiximViews, APIView):
                 - update contract data.
     """
 
-    # add event to contract
+    # link an event to a contract if the one is signed and request user is a seller
     def post(self, request, client_id, contract_id):
         contract = self.get_client_contract(request, client_id, contract_id)
         if contract.status and request.user.team == 'SALE':
@@ -172,6 +172,7 @@ class EventListView(APIView):
         serializer = EventSerializer(events, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
+
 class EventDetailView(APIView):
     """
         Class that provides methods for event :
@@ -190,6 +191,7 @@ class EventDetailView(APIView):
             return Response(serializer.data, status=status.HTTP_200_OK)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
+    # mark that an event is close
     def post(self, request, id):
         events = Event.objects.all()
         event = get_object_or_404(events, id=id)
@@ -200,6 +202,7 @@ class EventDetailView(APIView):
 
 
 class FilterByStatusView(APIView):
+    """ Class that allows users to filter contracts or events according to their status """
 
     def post(self, request):
         category = request.data['category']

@@ -3,13 +3,15 @@ from django.shortcuts import get_object_or_404
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
-
+import logging
 
 from .models import Client, Contract, Event
 from .serializers import ClientListSerializer, ClientDetailSerializer, ContractListSerializer, \
     ContractDetailSerializer, EventSerializer
 
 from .permissions import IsSalesContact, IsSupportContactOrSalesContact
+
+logger = logging.getLogger('django')
 
 
 class MiximViews:
@@ -20,17 +22,27 @@ class MiximViews:
     permission_classes = [IsSalesContact]
 
     def get_client(self, request, id):
-        clients = Client.objects.all()
-        client = get_object_or_404(clients, id=id)
-        return client
+
+        try:
+            return get_object_or_404(Client, id=id)
+        except Client.DoesNotExist as e:
+            logger.error(str(e))
+
+
+
+        """try:
+            logger.info("Try to get an client")
+            client = Client.objects.get(id=id)
+        except Client.DoesNotExist as e:
+            logger.error(str(e))
+        else:
+            return client
 
     def get_client_contract(self, request, client_id, contract_id):
-        client = self.get_client(request, client_id)
-        contracts = Contract.objects.filter(client=client)
-        contract = get_object_or_404(contracts, id=contract_id)
+        contract = get_object_or_404(Contract, client=client_id, id=contract_id)
         return contract
 
-
+"""
 class ClientListView(MiximViews, APIView):
 
     """
@@ -64,8 +76,11 @@ class ClientDetailView(MiximViews, APIView):
 
     def get(self, request, id):
         client = self.get_client(request, id=id)
-        serializer = ClientDetailSerializer(client)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        if client:
+            serializer = ClientDetailSerializer(client)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        else:
+            return Response("This client does not exist")
 
     def put(self, request, id):
         client = self.get_client(request, id=id)

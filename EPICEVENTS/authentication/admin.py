@@ -6,10 +6,11 @@ from django.core.exceptions import ValidationError
 
 from .models import User
 
+#logo = 'static/Logo.png'
 
 admin.site.site_header = 'Epic Events'
 admin.site.site_title = 'Epic Evens - Management Interface'
-admin.site.index_tilte = 'CRM - Management Interface'
+admin.site.index_tilte = 'CRM - Management Interface',
 
 
 class UserCreationForm(forms.ModelForm):

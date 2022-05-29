@@ -12,14 +12,17 @@ class Client(models.Model):
     company_name = models.CharField(max_length=250)
     date_created = models.DateTimeField(auto_now_add=True)
     date_updated = models.DateTimeField(auto_now=True)
-    sales_contact = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    sales_contact = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
+                                      limit_choices_to={"team": "SALE"})
 
     def __str__(self):
         return self.company_name
 
 
 class Contract(models.Model):
-    sales_contact = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    sales_contact = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
+                                      limit_choices_to={"team": "SALE"})
+
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
     date_created = models.DateTimeField(auto_now_add=True)
     date_updated = models.DateTimeField(auto_now=True)
@@ -33,6 +36,9 @@ class Contract(models.Model):
         self.status = True
         self.save()
 
+    def __str__(self):
+        return f' id : {self.id} - client: {self.client}'
+
 
 class Event(models.Model):
     date_created = models.DateTimeField(auto_now_add=True)
@@ -41,9 +47,11 @@ class Event(models.Model):
     attendees = models.IntegerField()
     event_date = models.DateTimeField()
     notes = models.TextField()
-    support_contact = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True,  on_delete=models.CASCADE)
+    support_contact = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True,  on_delete=models.CASCADE,
+                                        limit_choices_to={"team": "SUPPORT"})
+
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
-    contract = models.ForeignKey(Contract, on_delete=models.CASCADE)
+    contract = models.ForeignKey(Contract, on_delete=models.CASCADE, limit_choices_to={"status": True})
 
     def close(self):
         if self.event_status is True:
@@ -51,7 +59,8 @@ class Event(models.Model):
         self.event_status = True
         self.save()
 
-
+    def __str__(self):
+        return f' id : {self.id} - client: {self.client}'
 
 
 

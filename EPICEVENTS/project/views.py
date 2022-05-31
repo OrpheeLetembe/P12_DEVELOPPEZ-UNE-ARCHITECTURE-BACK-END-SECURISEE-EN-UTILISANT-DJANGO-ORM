@@ -1,9 +1,9 @@
-from django.contrib.auth.decorators import permission_required
+import logging
 from django.shortcuts import get_object_or_404
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
-import logging
+
 
 from .models import Client, Contract, Event
 from .serializers import ClientListSerializer, ClientDetailSerializer, ContractListSerializer, \
@@ -22,27 +22,17 @@ class MiximViews:
     permission_classes = [IsSalesContact]
 
     def get_client(self, request, id):
-
-        try:
-            return get_object_or_404(Client, id=id)
-        except Client.DoesNotExist as e:
-            logger.error(str(e))
-
-
-
-        """try:
-            logger.info("Try to get an client")
-            client = Client.objects.get(id=id)
-        except Client.DoesNotExist as e:
-            logger.error(str(e))
-        else:
-            return client
+        client = get_object_or_404(Client, id=id)
+        return client
 
     def get_client_contract(self, request, client_id, contract_id):
         contract = get_object_or_404(Contract, client=client_id, id=contract_id)
         return contract
 
-"""
+
+"""     CLIENT    """
+
+
 class ClientListView(MiximViews, APIView):
 
     """
@@ -91,19 +81,29 @@ class ClientDetailView(MiximViews, APIView):
             return Response(serializer.data, status=status.HTTP_200_OK)
 
 
-class ClientContractsList(MiximViews, APIView):
+"""     CONTRACT   """
 
-    """
-        Class that provides methods for contract :
-                - get a client contracts list.
-                - create a contract for a client.
-    """
 
-    def get(self, request, id):
-        client = self.get_client(request, id=id)
-        contracts = Contract.objects.filter(client=client)
+class ContractListView(APIView):
+
+    def get(self, request):
+        contracts = Contract.objects.all()
         serializer = ContractListSerializer(contracts, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
+
+
+class ContractDetailView(APIView):
+
+    def get(self, request, id):
+        contracts = Contract.objects.all()
+        contract = get_object_or_404(contracts, id=id)
+        serializer = ContractDetailSerializer(contract)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+
+class AddContractView(MiximViews, APIView):
+
+    """ Class that provides method for create a contract. """
 
     def post(self, request, id):
         client = self.get_client(request, id=id)
@@ -115,15 +115,16 @@ class ClientContractsList(MiximViews, APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-class UpdateClientContract(MiximViews, APIView):
+class UpdateContractView(MiximViews, APIView):
     """
         Class that provides methods for contract :
                 - create an event for a contract.
                 - update contract data.
     """
 
-    # link an event to a contract if the one is signed and request user is a seller
     def post(self, request, client_id, contract_id):
+        """Link an event to a contract if the one is signed and request user is a seller"""
+
         contract = self.get_client_contract(request, client_id, contract_id)
         if contract.status and request.user.team == 'SALE':
             serializer = EventSerializer(data=request.data)
@@ -154,30 +155,7 @@ class SignContract(MiximViews, APIView):
         return Response(serializer.data, status=status.HTTP_200_OK)
 
 
-class ClientEventList(MiximViews, APIView):
-
-    def get(self, request, id):
-        client = self.get_client(request, id=id)
-        events = Event.objects.filter(client=client)
-        serializer = EventSerializer(events, many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
-
-
-class ContractListView(APIView):
-
-    def get(self, request):
-        contracts = Contract.objects.all()
-        serializer = ContractListSerializer(contracts, many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
-
-
-class ContractDetailView(APIView):
-
-    def get(self, request, id):
-        contracts = Contract.objects.all()
-        contract = get_object_or_404(contracts, id=id)
-        serializer = ContractDetailSerializer(contract)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+"""     EVENT    """
 
 
 class EventListView(APIView):
@@ -206,8 +184,9 @@ class EventDetailView(APIView):
             return Response(serializer.data, status=status.HTTP_200_OK)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-    # mark that an event is close
     def post(self, request, id):
+        """ Mark that an event is close"""
+
         events = Event.objects.all()
         event = get_object_or_404(events, id=id)
         self.check_object_permissions(request, event)
@@ -216,21 +195,91 @@ class EventDetailView(APIView):
         return Response(serializer.data, status=status.HTTP_200_OK)
 
 
-class FilterByStatusView(APIView):
-    """ Class that allows users to filter contracts or events according to their status """
+"""     FILTERS    """
+
+
+class FilterView(APIView):
+
+    """ Class that allows users to filter:
+        client by last name or email.
+        contracts by the client last name, the client email, the date of creation or the contract amount.
+        events based on the client last name, client email or event date.
+
+        """
 
     def post(self, request):
-        category = request.data['category']
-        category_status = request.data['status']
-        if category == 'contract':
-            contracts = Contract.objects.filter(status=category_status)
-            serializer = ContractDetailSerializer(contracts, many=True)
-            return Response(serializer.data, status=status.HTTP_200_OK)
-        elif category == 'event':
-            events = Contract.objects.filter(status=category_status)
-            serializer = ContractDetailSerializer(events, many=True)
-            return Response(serializer.data, status=status.HTTP_200_OK)
+        model = request.data['category']
+        model_field = request.data['field']
+        search_key = request.data['search']
+
+        if model == 'client':
+            search_fields = ['last_name', 'email']
+            if model_field in search_fields:
+                client = self.filter_client(model_field, search_key)
+                serializer = ClientDetailSerializer(client)
+                return Response(serializer.data, status=status.HTTP_200_OK)
+            return Response('Field error: try last_name or email', status=status.HTTP_400_BAD_REQUEST)
+
+        elif model == 'contract':
+            search_fields = ['last_name', 'email', 'amount', 'date_created']
+            if model_field in search_fields:
+                contracts = self.filter_contract(model_field, search_key)
+                serializer = ContractListSerializer(contracts, many=True)
+                return Response(serializer.data, status=status.HTTP_200_OK)
+
+            return Response('Field error: try last_name, email, amount or date_created',
+                            status=status.HTTP_400_BAD_REQUEST)
+
+        elif model == 'event':
+            search_fields = ['last_name', 'email', 'event_date']
+            if model_field in search_fields:
+                events = self.filter_event(model_field, search_key)
+                serializer = EventSerializer(events, many=True)
+                return Response(serializer.data, status=status.HTTP_200_OK)
+
+            return Response('Field error: try last_name, email or event_date',
+                            status=status.HTTP_400_BAD_REQUEST)
+
         else:
-            return Response("this category does not exist", status=status.HTTP_400_BAD_REQUEST)
+            return Response("this category does not exist : try client, contract or event",
+                            status=status.HTTP_400_BAD_REQUEST)
+
+    def filter_client(self, field, search):
+        """ Method for performing client filters"""
+
+        if field == 'last_name':
+            return get_object_or_404(Client, last_name=search)
+        if field == 'email':
+            return get_object_or_404(Client, email=search)
+
+    def filter_contract(self, field, search):
+        """ Method for performing contract filters"""
+        if field == 'last_name':
+            client = get_object_or_404(Client, last_name=search)
+            return Contract.objects.filter(client=client)
+        if field == 'email':
+            client = get_object_or_404(Client, email=search)
+            return Contract.objects.filter(client=client)
+
+        if field == 'amount':
+            return Contract.objects.filter(amount=search)
+        if field == 'date_created':
+            return Contract.objects.filter(date_created=search)
+
+    def filter_event(self, field, search):
+        """ Method for performing event filters"""
+        if field == 'last_name':
+            client = Client.objects.get(last_name=search)
+            return Event.objects.filter(client=client)
+        if field == 'email':
+            client = Client.objects.get(email=search)
+            return Event.objects.filter(client=client)
+        if field == 'event_date':
+            return Event.objects.filter(event_date=search)
+
+
+
+
+
 
 

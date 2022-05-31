@@ -4,8 +4,11 @@ from rest_framework import permissions
 class IsSalesContact(permissions.BasePermission):
 
     def has_object_permission(self, request, view, obj):
-        if request.method in permissions.SAFE_METHODS:
+
+        if view.action in ['list', "retrieve"]:
             return True
+        elif view.action == 'create':
+            return request.user.team == 'SALE'
         return obj.sales_contact == request.user
 
 

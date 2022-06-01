@@ -19,16 +19,16 @@ Créer, mettre à jour et supprimer des utilisateurs dans le système CRM. ○  
 
 5-	Il existe une API prenant en charge les opérations CRUD en fonction des modèles de base de données
 -	Tous les membres de l'équipe de vente doivent pouvoir : 
-Ajouter de nouveaux clients dans le système CRM à mesure qu'ils obtiennent des prospects. 
-Actualiser les informations du client pour garantir leur exactitude. 
-Créer un contrat pour un nouvel événement potentiel. 
-Indiquer qu'un contrat ouvert est signé.  
-Créer un nouvel événement pour un contrat. 
+   - Ajouter de nouveaux clients dans le système CRM à mesure qu'ils obtiennent des prospects. 
+   - Actualiser les informations du client pour garantir leur exactitude. 
+   - Créer un contrat pour un nouvel événement potentiel. 
+   - Indiquer qu'un contrat ouvert est signé.  
+   - Créer un nouvel événement pour un contrat. 
  
 -	Tous les membres de l'équipe de support doivent pouvoir : 
---Afficher et actualiser les informations relatives aux événements attribués.  
---Afficher les informations du client relatives aux événements attribués. 
---Actualiser les informations sur l'événement jusqu'à ce qu'il soit terminé. 
+ Afficher et actualiser les informations relatives aux événements attribués.  
+ Afficher les informations du client relatives aux événements attribués. 
+ Actualiser les informations sur l'événement jusqu'à ce qu'il soit terminé. 
 
 6-	Les endpoints  d'API doivent permettre aux utilisateurs de rechercher et de filtrer les informations
 

@@ -272,7 +272,9 @@ class FilterView(APIView):
         if field == 'amount' and search.isdigit():
             return Contract.objects.filter(amount=search)
         if field == 'date_created':
-            return Contract.objects.filter(date_created=search)
+            contract_date = self.check_date(search)
+            if contract_date is not None:
+                return Contract.objects.filter(date_created=search)
 
     def filter_event(self, field, search):
         """ Method for performing event filters"""
@@ -283,10 +285,17 @@ class FilterView(APIView):
             client = get_object_or_404(Client, email=search)
             return Event.objects.filter(client=client)
         if field == 'event_date':
-            return Event.objects.filter(event_date=search)
+            event_date = self.check_date(search)
+            if event_date is not None:
+                return Event.objects.filter(event_date=search)
 
-
-
+    def check_date(self, value):
+        format_date = '%Y-%m-%dT%H:%M:%S.%fZ'
+        try:
+            valid_date = datetime.datetime.strptime(value, format_date)
+        except ValueError:
+            return None
+        return valid_date
 
 
 

@@ -26,9 +26,9 @@ Indiquer qu'un contrat ouvert est signé.
 Créer un nouvel événement pour un contrat. 
  
 -	Tous les membres de l'équipe de support doivent pouvoir : 
-Afficher et actualiser les informations relatives aux événements attribués.  
-Afficher les informations du client relatives aux événements attribués. 
-Actualiser les informations sur l'événement jusqu'à ce qu'il soit terminé. 
+--Afficher et actualiser les informations relatives aux événements attribués.  
+--Afficher les informations du client relatives aux événements attribués. 
+--Actualiser les informations sur l'événement jusqu'à ce qu'il soit terminé. 
 
 6-	Les endpoints  d'API doivent permettre aux utilisateurs de rechercher et de filtrer les informations
 
@@ -48,13 +48,13 @@ Actualiser les informations sur l'événement jusqu'à ce qu'il soit terminé.
 
 3	Créer un environnement virtuel pour le projet avec la commande :
 
--`$ python -m venv env` sous windows 
--`$ python3 -m venv env` sous macos ou linux.
+- `$ python -m venv env` sous windows 
+- `$ python3 -m venv env` sous macos ou linux.
 
 4	Activez l'environnement virtuel avec la commande
 
--`$ env\Scripts\activate` sous windows 
--`$ source env/bin/activate` sous macos ou linux.
+- `$ env\Scripts\activate` sous windows 
+- `$ source env/bin/activate` sous macos ou linux.
 
 5	Installez les dépendances du projet avec la commande `$ pip install -r requirements.txt`
 6	 Démarrer le serveur avec $ python manage.py runserver

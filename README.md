@@ -26,9 +26,9 @@ Créer, mettre à jour et supprimer des utilisateurs dans le système CRM. ○  
    5. Créer un nouvel événement pour un contrat. 
  
 -	Tous les membres de l'équipe de support doivent pouvoir : 
- Afficher et actualiser les informations relatives aux événements attribués.  
- Afficher les informations du client relatives aux événements attribués. 
- Actualiser les informations sur l'événement jusqu'à ce qu'il soit terminé. 
+ 1. Afficher et actualiser les informations relatives aux événements attribués.  
+ 2. Afficher les informations du client relatives aux événements attribués. 
+ 3. Actualiser les informations sur l'événement jusqu'à ce qu'il soit terminé. 
 
 6-	Les endpoints  d'API doivent permettre aux utilisateurs de rechercher et de filtrer les informations
 

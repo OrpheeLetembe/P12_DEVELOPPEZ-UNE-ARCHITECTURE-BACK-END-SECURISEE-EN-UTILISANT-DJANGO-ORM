@@ -49,7 +49,7 @@ Actualiser les informations sur l'événement jusqu'à ce qu'il soit terminé.
 3	Créer un environnement virtuel pour le projet avec la commande :
 
 -`$ python -m venv env` sous windows 
-- `$ python3 -m venv env` sous macos ou linux.
+-`$ python3 -m venv env` sous macos ou linux.
 
 4	Activez l'environnement virtuel avec la commande
 

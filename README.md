@@ -15,7 +15,8 @@ Le système mis en place devra répondre aux exigences fonctionnelles suivants :
 
 4-	Les utilisateurs non administrateurs peuvent être associés à l'un des deux groupes déterminant les autorisations pour l'API
 -	Tous les membres de l'équipe de gestion doivent avoir : 
-Créer, mettre à jour et supprimer des utilisateurs dans le système CRM. ○   Afficher et modifier toutes les données dans le système CRM. 
+   1. Créer, mettre à jour et supprimer des utilisateurs dans le système CRM.
+   2. Afficher et modifier toutes les données dans le système CRM. 
 
 5-	Il existe une API prenant en charge les opérations CRUD en fonction des modèles de base de données
 -	Tous les membres de l'équipe de vente doivent pouvoir : 

@@ -1,0 +1,1375 @@
+INFO 2022-06-01 16:06:09,568 autoreload 18756 8676 Watching for file changes with StatReloader
+INFO 2022-06-01 16:06:14,724 basehttp 18756 15288 "GET /admin/project/event/ HTTP/1.1" 200 12394
+INFO 2022-06-01 16:06:14,852 basehttp 18756 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 16:06:17,817 basehttp 18756 15288 "GET /admin/project/event/add/ HTTP/1.1" 200 12579
+INFO 2022-06-01 16:06:17,877 basehttp 18756 16992 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2022-06-01 16:06:17,878 basehttp 18756 6840 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2022-06-01 16:06:17,939 basehttp 18756 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 16:06:18,201 basehttp 18756 15288 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2022-06-01 16:06:18,202 basehttp 18756 16992 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2022-06-01 16:06:31,349 basehttp 18756 15288 "GET /admin/project/contract/ HTTP/1.1" 200 12736
+INFO 2022-06-01 16:06:31,462 basehttp 18756 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 16:06:52,058 basehttp 18756 15288 "GET /admin/project/event/ HTTP/1.1" 200 12394
+INFO 2022-06-01 16:06:52,164 basehttp 18756 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 16:06:55,873 basehttp 18756 15288 "GET /admin/project/event/add/ HTTP/1.1" 200 12579
+INFO 2022-06-01 16:06:56,014 basehttp 18756 15288 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 16:54:10,036 autoreload 20128 1952 Watching for file changes with StatReloader
+INFO 2022-06-01 18:28:44,118 autoreload 16420 11232 Watching for file changes with StatReloader
+INFO 2022-06-01 18:28:50,663 basehttp 16420 8520 "GET /admin/project/event/add/ HTTP/1.1" 200 12579
+INFO 2022-06-01 18:28:50,821 basehttp 16420 8520 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 18:28:54,049 basehttp 16420 8520 "GET /admin/authentication/user/add/ HTTP/1.1" 200 8421
+INFO 2022-06-01 18:28:54,178 basehttp 16420 8520 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 18:29:16,466 basehttp 16420 8520 "POST /admin/authentication/user/add/ HTTP/1.1" 302 0
+INFO 2022-06-01 18:29:16,632 basehttp 16420 8520 "GET /admin/authentication/user/17/change/ HTTP/1.1" 200 13218
+INFO 2022-06-01 18:29:16,762 basehttp 16420 8520 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 18:30:06,999 basehttp 16420 8520 "POST /admin/authentication/user/17/change/ HTTP/1.1" 302 0
+INFO 2022-06-01 18:30:07,160 basehttp 16420 8520 "GET /admin/authentication/user/ HTTP/1.1" 200 13743
+INFO 2022-06-01 18:30:07,325 basehttp 16420 8520 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 18:30:18,101 basehttp 16420 8520 "GET /admin/authentication/user/17/change/ HTTP/1.1" 200 13072
+INFO 2022-06-01 18:30:18,211 basehttp 16420 8520 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 18:30:26,057 basehttp 16420 8520 "GET /admin/logout/ HTTP/1.1" 200 1536
+INFO 2022-06-01 18:30:27,779 basehttp 16420 8520 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-06-01 18:30:27,821 basehttp 16420 8520 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2221
+INFO 2022-06-01 18:30:37,294 basehttp 16420 8520 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-06-01 18:30:37,390 basehttp 16420 8520 "GET /admin/ HTTP/1.1" 200 5128
+INFO 2022-06-01 18:53:10,033 autoreload 20420 19084 Watching for file changes with StatReloader
+WARNING 2022-06-01 18:53:13,173 log 20420 17156 Unauthorized: /api/login/
+WARNING 2022-06-01 18:53:13,174 basehttp 20420 17156 "POST /api/login/ HTTP/1.1" 401 63
+WARNING 2022-06-01 19:08:45,947 log 20420 17156 Unauthorized: /api/events/41
+WARNING 2022-06-01 19:08:45,948 basehttp 20420 17156 "PUT /api/events/41 HTTP/1.1" 401 183
+WARNING 2022-06-01 19:08:49,805 log 20420 17156 Unauthorized: /api/login/
+WARNING 2022-06-01 19:08:49,805 basehttp 20420 17156 "POST /api/login/ HTTP/1.1" 401 63
+WARNING 2022-06-01 19:08:53,039 log 20420 17156 Unauthorized: /api/events/41
+WARNING 2022-06-01 19:08:53,039 basehttp 20420 17156 "PUT /api/events/41 HTTP/1.1" 401 183
+WARNING 2022-06-01 19:08:55,984 log 20420 17156 Unauthorized: /api/events/41
+WARNING 2022-06-01 19:08:55,985 basehttp 20420 17156 "PUT /api/events/41 HTTP/1.1" 401 183
+INFO 2022-06-01 19:09:05,157 basehttp 20420 17156 "POST /api/login/ HTTP/1.1" 200 483
+WARNING 2022-06-01 19:09:09,489 log 20420 17156 Not Found: /api/events/41
+WARNING 2022-06-01 19:09:09,490 basehttp 20420 17156 "PUT /api/events/41 HTTP/1.1" 404 23
+WARNING 2022-06-01 19:09:18,074 log 20420 17156 Forbidden: /api/events/2
+WARNING 2022-06-01 19:09:18,074 basehttp 20420 17156 "PUT /api/events/2 HTTP/1.1" 403 63
+INFO 2022-06-01 19:32:10,760 basehttp 20420 17156 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 19:32:16,064 basehttp 20420 17156 "GET /api/clients/58 HTTP/1.1" 301 0
+WARNING 2022-06-01 19:32:16,156 log 20420 17156 Not Found: /api/clients/58/
+WARNING 2022-06-01 19:32:16,157 basehttp 20420 17156 "GET /api/clients/58/ HTTP/1.1" 404 23
+INFO 2022-06-01 19:32:34,599 basehttp 20420 17156 "GET /api/contracts/ HTTP/1.1" 200 682
+INFO 2022-06-01 19:32:43,112 basehttp 20420 17156 "GET /api/events/ HTTP/1.1" 200 730
+INFO 2022-06-01 21:38:28,212 autoreload 21856 20256 Watching for file changes with StatReloader
+INFO 2022-06-01 21:38:35,081 basehttp 21856 14776 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 21:38:51,752 basehttp 21856 14776 "GET /api/clients/58 HTTP/1.1" 301 0
+WARNING 2022-06-01 21:38:51,824 log 21856 14776 Not Found: /api/clients/58/
+WARNING 2022-06-01 21:38:51,825 basehttp 21856 14776 "GET /api/clients/58/ HTTP/1.1" 404 23
+INFO 2022-06-01 21:38:58,696 basehttp 21856 14776 "GET /api/clients/ HTTP/1.1" 200 2053
+INFO 2022-06-01 21:39:45,915 basehttp 21856 14776 "GET /api/clients/12/ HTTP/1.1" 200 256
+INFO 2022-06-01 21:40:38,168 basehttp 21856 14776 "POST /api/login/ HTTP/1.1" 200 483
+WARNING 2022-06-01 21:40:49,166 log 21856 14776 Forbidden: /api/events/2
+WARNING 2022-06-01 21:40:49,167 basehttp 21856 14776 "PUT /api/events/2 HTTP/1.1" 403 63
+INFO 2022-06-01 21:41:00,494 basehttp 21856 14776 "GET /api/events/ HTTP/1.1" 200 730
+INFO 2022-06-01 21:41:13,142 basehttp 21856 14776 "PUT /api/events/3 HTTP/1.1" 200 253
+INFO 2022-06-01 22:17:21,696 autoreload 12780 15840 Watching for file changes with StatReloader
+INFO 2022-06-01 22:17:34,897 basehttp 12780 1836 "GET /admin/authentication/user/ HTTP/1.1" 200 13539
+INFO 2022-06-01 22:17:35,014 basehttp 12780 1836 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:17:39,025 basehttp 12780 1836 "GET /admin/authentication/user/3/change/ HTTP/1.1" 200 11955
+INFO 2022-06-01 22:17:39,191 basehttp 12780 1836 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:19:03,564 autoreload 12780 15840 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\authentication\admin.py changed, reloading.
+INFO 2022-06-01 22:19:04,644 autoreload 9288 14536 Watching for file changes with StatReloader
+INFO 2022-06-01 22:19:05,279 basehttp 9288 7928 "GET /admin/authentication/user/3/change/ HTTP/1.1" 200 13067
+INFO 2022-06-01 22:19:05,403 basehttp 9288 7928 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:19:15,330 basehttp 9288 13440 "GET /admin/authentication/user/ HTTP/1.1" 200 13539
+INFO 2022-06-01 22:19:15,468 basehttp 9288 13440 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:19:20,721 basehttp 9288 13440 "GET /admin/authentication/user/17/change/ HTTP/1.1" 200 13071
+INFO 2022-06-01 22:19:20,850 basehttp 9288 13440 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:19:50,593 basehttp 9288 13244 "GET /admin/authentication/user/ HTTP/1.1" 200 13539
+INFO 2022-06-01 22:19:50,708 basehttp 9288 13244 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:20:54,415 autoreload 9288 14536 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\authentication\admin.py changed, reloading.
+INFO 2022-06-01 22:20:55,497 autoreload 2492 20924 Watching for file changes with StatReloader
+INFO 2022-06-01 22:20:57,379 basehttp 2492 15532 "GET /admin/ HTTP/1.1" 200 5128
+INFO 2022-06-01 22:21:38,110 autoreload 16400 21840 Watching for file changes with StatReloader
+INFO 2022-06-01 22:21:50,653 basehttp 16400 19416 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 22:21:55,183 basehttp 16400 19416 "GET /api/clients/12/ HTTP/1.1" 200 256
+INFO 2022-06-01 22:22:00,040 basehttp 16400 19416 "GET /api/clients/ HTTP/1.1" 200 2053
+INFO 2022-06-01 22:23:00,926 basehttp 16400 19416 "GET /api/contracts/ HTTP/1.1" 200 682
+INFO 2022-06-01 22:23:20,951 basehttp 16400 19416 "GET /api/events/ HTTP/1.1" 200 748
+INFO 2022-06-01 22:23:49,674 basehttp 16400 220 "GET /admin/project/event/ HTTP/1.1" 200 12412
+INFO 2022-06-01 22:23:49,856 basehttp 16400 220 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:23:52,447 basehttp 16400 220 "GET /admin/project/event/3/change/ HTTP/1.1" 200 12964
+INFO 2022-06-01 22:23:52,611 basehttp 16400 220 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:24:50,258 basehttp 16400 12004 "POST /admin/project/event/3/change/ HTTP/1.1" 302 0
+INFO 2022-06-01 22:24:50,408 basehttp 16400 12004 "GET /admin/project/event/ HTTP/1.1" 200 12896
+INFO 2022-06-01 22:24:50,529 basehttp 16400 12004 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:25:26,820 basehttp 16400 19416 "GET /api/events/ HTTP/1.1" 200 999
+INFO 2022-06-01 22:25:42,618 basehttp 16400 9100 "GET /admin/project/event/3/change/ HTTP/1.1" 200 13218
+INFO 2022-06-01 22:25:42,746 basehttp 16400 9100 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:25:51,117 basehttp 16400 21472 "POST /admin/project/event/3/change/ HTTP/1.1" 302 0
+INFO 2022-06-01 22:25:51,244 basehttp 16400 21472 "GET /admin/project/event/ HTTP/1.1" 200 12768
+INFO 2022-06-01 22:25:51,359 basehttp 16400 21472 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:26:17,415 autoreload 16400 21840 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\admin.py changed, reloading.
+INFO 2022-06-01 22:26:18,664 autoreload 11504 9472 Watching for file changes with StatReloader
+INFO 2022-06-01 22:26:19,300 basehttp 11504 18604 "GET /admin/project/event/ HTTP/1.1" 200 12124
+INFO 2022-06-01 22:26:19,415 basehttp 11504 18604 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:27:04,493 basehttp 11504 3488 "GET /admin/project/event/2/change/ HTTP/1.1" 200 12937
+INFO 2022-06-01 22:27:04,628 basehttp 11504 3488 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:27:41,377 basehttp 11504 21756 "POST /admin/project/event/2/change/ HTTP/1.1" 302 0
+INFO 2022-06-01 22:27:41,523 basehttp 11504 21756 "GET /admin/project/event/ HTTP/1.1" 200 12348
+INFO 2022-06-01 22:27:41,634 basehttp 11504 21756 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2022-06-01 22:27:50,016 log 11504 18196 Unauthorized: /api/events/
+WARNING 2022-06-01 22:27:50,017 basehttp 11504 18196 "GET /api/events/ HTTP/1.1" 401 183
+INFO 2022-06-01 22:27:54,278 basehttp 11504 18196 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 22:27:59,860 basehttp 11504 18196 "GET /api/events/ HTTP/1.1" 200 947
+WARNING 2022-06-01 22:28:19,567 log 11504 18196 Forbidden: /api/events/3
+WARNING 2022-06-01 22:28:19,567 basehttp 11504 18196 "POST /api/events/3 HTTP/1.1" 403 63
+INFO 2022-06-01 22:28:39,926 basehttp 11504 18196 "POST /api/events/2 HTTP/1.1" 200 313
+INFO 2022-06-01 22:29:06,910 basehttp 11504 4324 "GET /admin/project/event/ HTTP/1.1" 200 12127
+INFO 2022-06-01 22:29:07,058 basehttp 11504 4324 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:29:19,339 basehttp 11504 12168 "GET /admin/authentication/user/ HTTP/1.1" 200 13539
+INFO 2022-06-01 22:29:19,450 basehttp 11504 12168 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:29:27,747 basehttp 11504 19756 "GET /admin/authentication/user/5/change/ HTTP/1.1" 200 13066
+INFO 2022-06-01 22:29:27,860 basehttp 11504 19756 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:29:38,441 basehttp 11504 13328 "POST /admin/authentication/user/5/change/ HTTP/1.1" 302 0
+INFO 2022-06-01 22:29:38,595 basehttp 11504 13328 "GET /admin/authentication/user/ HTTP/1.1" 200 13744
+INFO 2022-06-01 22:29:38,719 basehttp 11504 13328 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:29:44,306 basehttp 11504 17672 "GET /admin/project/event/ HTTP/1.1" 200 12208
+INFO 2022-06-01 22:29:44,435 basehttp 11504 17672 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:29:50,457 basehttp 11504 12684 "GET /admin/project/event/1/change/ HTTP/1.1" 200 12999
+INFO 2022-06-01 22:29:50,615 basehttp 11504 12684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:30:03,686 basehttp 11504 11288 "POST /admin/project/event/1/change/ HTTP/1.1" 302 0
+INFO 2022-06-01 22:30:03,823 basehttp 11504 11288 "GET /admin/project/event/ HTTP/1.1" 200 12435
+INFO 2022-06-01 22:30:03,950 basehttp 11504 11288 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:30:24,686 basehttp 11504 18196 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 22:30:30,843 basehttp 11504 18196 "GET /api/clients/ HTTP/1.1" 200 2053
+INFO 2022-06-01 22:30:51,012 basehttp 11504 18196 "GET /api/contracts/ HTTP/1.1" 200 682
+INFO 2022-06-01 22:31:01,505 basehttp 11504 18196 "POST /api/clients/2/contracts/4 HTTP/1.1" 200 33
+INFO 2022-06-01 22:31:16,278 basehttp 11504 18196 "GET /api/contracts/ HTTP/1.1" 200 682
+INFO 2022-06-01 22:32:21,555 basehttp 11504 18196 "POST /api/clients/1/contracts/1 HTTP/1.1" 200 33
+INFO 2022-06-01 22:36:25,910 autoreload 17736 14164 Watching for file changes with StatReloader
+INFO 2022-06-01 22:36:27,997 basehttp 17736 12508 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 22:36:33,597 basehttp 17736 12508 "POST /api/clients/1/contracts/1 HTTP/1.1" 201 238
+INFO 2022-06-01 22:37:02,562 basehttp 17736 19792 "GET /admin/project/event/ HTTP/1.1" 200 12894
+INFO 2022-06-01 22:37:02,694 basehttp 17736 19792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:38:16,639 autoreload 16228 5032 Watching for file changes with StatReloader
+INFO 2022-06-01 22:38:25,629 basehttp 16228 17124 "POST /api/login/ HTTP/1.1" 200 483
+WARNING 2022-06-01 22:38:29,025 log 16228 17124 Forbidden: /api/clients/1/contracts/1
+WARNING 2022-06-01 22:38:29,026 basehttp 16228 17124 "POST /api/clients/1/contracts/1 HTTP/1.1" 403 52
+INFO 2022-06-01 22:39:02,133 basehttp 16228 17124 "POST /api/login/ HTTP/1.1" 200 483
+WARNING 2022-06-01 22:39:23,250 log 16228 17124 Not Found: /api/clients/1/contracts/4
+WARNING 2022-06-01 22:39:23,251 basehttp 16228 17124 "POST /api/clients/1/contracts/4 HTTP/1.1" 404 23
+INFO 2022-06-01 22:39:37,156 basehttp 16228 17124 "POST /api/clients/2/contracts/4 HTTP/1.1" 200 33
+INFO 2022-06-01 22:40:39,863 basehttp 16228 18968 "GET /admin/project/event/4/change/ HTTP/1.1" 200 12984
+INFO 2022-06-01 22:40:39,997 basehttp 16228 18968 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:40:42,808 basehttp 16228 18156 "GET /admin/project/event/4/delete/ HTTP/1.1" 200 5985
+INFO 2022-06-01 22:40:44,311 basehttp 16228 18156 "POST /admin/project/event/4/delete/ HTTP/1.1" 302 0
+INFO 2022-06-01 22:40:44,554 basehttp 16228 18156 "GET /admin/project/event/ HTTP/1.1" 200 12390
+INFO 2022-06-01 22:40:44,764 basehttp 16228 18156 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 22:43:07,971 basehttp 16228 17124 "POST /api/clients/1/contracts/1 HTTP/1.1" 201 238
+INFO 2022-06-01 23:00:52,055 autoreload 15260 12772 Watching for file changes with StatReloader
+ERROR 2022-06-01 23:01:02,092 log 15260 21608 Internal Server Error: /admin/project/event/
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1959, in changelist_view
+    response = self.response_action(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1588, in response_action
+    response = func(self, request, queryset)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 2099, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py", line 63, in __str__
+    return f' id : {self.id} - client: {self.client}'
+AttributeError: 'Event' object has no attribute 'id'
+ERROR 2022-06-01 23:01:02,105 basehttp 15260 21608 "POST /admin/project/event/ HTTP/1.1" 500 138738
+INFO 2022-06-01 23:03:00,175 basehttp 15260 21608 "GET /admin/project/event/ HTTP/1.1" 200 12644
+ERROR 2022-06-01 23:03:08,596 log 15260 21608 Internal Server Error: /admin/project/event/
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1959, in changelist_view
+    response = self.response_action(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1588, in response_action
+    response = func(self, request, queryset)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 2099, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py", line 63, in __str__
+    return f' id : {self.id} - client: {self.client}'
+AttributeError: 'Event' object has no attribute 'id'
+ERROR 2022-06-01 23:03:08,598 basehttp 15260 21608 "POST /admin/project/event/ HTTP/1.1" 500 138738
+INFO 2022-06-01 23:03:10,538 basehttp 15260 21608 "GET /admin/project/event/ HTTP/1.1" 200 12644
+ERROR 2022-06-01 23:03:15,946 log 15260 21608 Internal Server Error: /admin/project/event/2/change/
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1888, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1854, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py", line 63, in __str__
+    return f' id : {self.id} - client: {self.client}'
+AttributeError: 'Event' object has no attribute 'id'
+ERROR 2022-06-01 23:03:15,948 basehttp 15260 21608 "GET /admin/project/event/2/change/ HTTP/1.1" 500 116111
+INFO 2022-06-01 23:03:19,862 basehttp 15260 21608 "GET /admin/project/event/ HTTP/1.1" 200 12644
+ERROR 2022-06-01 23:06:00,707 log 15260 21608 Internal Server Error: /admin/project/event/2/change/
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1888, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1854, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py", line 63, in __str__
+    return f' id : {self.id} - client: {self.client}'
+AttributeError: 'Event' object has no attribute 'id'
+ERROR 2022-06-01 23:06:00,708 basehttp 15260 21608 "GET /admin/project/event/2/change/ HTTP/1.1" 500 116111
+ERROR 2022-06-01 23:06:07,357 log 15260 21608 Internal Server Error: /admin/project/event/2/change/
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1888, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1854, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py", line 63, in __str__
+    return f' id : {self.id} - client: {self.client}'
+AttributeError: 'Event' object has no attribute 'id'
+ERROR 2022-06-01 23:06:07,358 basehttp 15260 21608 "GET /admin/project/event/2/change/ HTTP/1.1" 500 116248
+INFO 2022-06-01 23:06:15,703 autoreload 8776 21204 Watching for file changes with StatReloader
+ERROR 2022-06-01 23:06:19,934 log 8776 10524 Internal Server Error: /admin/project/event/2/change/
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1888, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1854, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py", line 63, in __str__
+    return f' id : {self.id} - client: {self.client}'
+AttributeError: 'Event' object has no attribute 'id'
+ERROR 2022-06-01 23:06:19,937 basehttp 8776 10524 "GET /admin/project/event/2/change/ HTTP/1.1" 500 116248
+INFO 2022-06-01 23:08:13,504 basehttp 8776 5716 "GET /admin/project/event/ HTTP/1.1" 200 12644
+ERROR 2022-06-01 23:08:18,975 log 8776 7828 Internal Server Error: /admin/project/event/2/change/
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1888, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1854, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py", line 63, in __str__
+    return f' id : {self.id} - client: {self.client}'
+AttributeError: 'Event' object has no attribute 'id'
+ERROR 2022-06-01 23:08:18,976 basehttp 8776 7828 "GET /admin/project/event/2/change/ HTTP/1.1" 500 116111
+INFO 2022-06-01 23:08:37,142 basehttp 8776 14464 "GET /admin/project/event/ HTTP/1.1" 200 12644
+ERROR 2022-06-01 23:08:39,252 log 8776 14464 Internal Server Error: /admin/project/event/2/change/
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1888, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1854, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py", line 63, in __str__
+    return f' id : {self.id} - client: {self.client}'
+AttributeError: 'Event' object has no attribute 'id'
+ERROR 2022-06-01 23:08:39,253 basehttp 8776 14464 "GET /admin/project/event/2/change/ HTTP/1.1" 500 116111
+INFO 2022-06-01 23:09:13,254 autoreload 8776 21204 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py changed, reloading.
+INFO 2022-06-01 23:09:14,672 autoreload 4964 3456 Watching for file changes with StatReloader
+INFO 2022-06-01 23:10:24,169 autoreload 10644 21868 Watching for file changes with StatReloader
+INFO 2022-06-01 23:10:24,893 basehttp 10644 10744 "GET /admin/project/event/2/change/ HTTP/1.1" 200 13059
+INFO 2022-06-01 23:10:25,290 basehttp 10644 10744 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:10:31,958 basehttp 10644 10744 "GET /admin/project/event/ HTTP/1.1" 200 12644
+INFO 2022-06-01 23:10:38,801 basehttp 10644 21064 "POST /admin/project/event/ HTTP/1.1" 200 6552
+INFO 2022-06-01 23:10:40,597 basehttp 10644 21064 "POST /admin/project/event/ HTTP/1.1" 302 0
+INFO 2022-06-01 23:10:40,710 basehttp 10644 21064 "GET /admin/project/event/ HTTP/1.1" 200 8067
+INFO 2022-06-01 23:10:40,842 basehttp 10644 21064 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:11:06,886 autoreload 10644 21868 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py changed, reloading.
+INFO 2022-06-01 23:11:07,752 autoreload 1536 14784 Watching for file changes with StatReloader
+INFO 2022-06-01 23:13:07,625 autoreload 11552 20808 Watching for file changes with StatReloader
+INFO 2022-06-01 23:13:12,059 basehttp 11552 7060 "GET /admin/project/event/add/ HTTP/1.1" 200 12613
+INFO 2022-06-01 23:13:12,185 basehttp 11552 7060 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:14:07,561 basehttp 11552 22152 "POST /admin/project/event/add/ HTTP/1.1" 200 12907
+INFO 2022-06-01 23:14:07,695 basehttp 11552 22152 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:14:11,694 basehttp 11552 12884 "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+ERROR 2022-06-01 23:14:34,123 log 11552 15804 Internal Server Error: /admin/project/event/add/
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1885, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1803, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 921, in log_addition
+    object_repr=str(obj),
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py", line 63, in __str__
+    return f' id : {self.id} - client: {self.client}'
+AttributeError: 'Event' object has no attribute 'id'
+ERROR 2022-06-01 23:14:34,126 basehttp 11552 15804 "POST /admin/project/event/add/ HTTP/1.1" 500 121042
+INFO 2022-06-01 23:15:50,783 autoreload 11552 20808 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\models.py changed, reloading.
+INFO 2022-06-01 23:15:51,682 autoreload 15840 5804 Watching for file changes with StatReloader
+INFO 2022-06-01 23:21:35,759 autoreload 18420 10476 Watching for file changes with StatReloader
+INFO 2022-06-01 23:21:43,431 basehttp 18420 1188 "GET /admin/ HTTP/1.1" 200 8025
+INFO 2022-06-01 23:21:47,548 basehttp 18420 18628 "GET /admin/ HTTP/1.1" 200 8025
+ERROR 2022-06-01 23:21:49,523 log 18420 18628 Internal Server Error: /admin/project/contract/
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « project_client » n'existe pas
+LINE 1: ...pdated", "project_client"."sales_contact_id" FROM "project_c...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\options.py", line 831, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\views\main.py", line 503, in get_queryset
+    ) = self.get_filters(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\views\main.py", line 182, in get_filters
+    spec = field_list_filter_class(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\filters.py", line 172, in create
+    return list_filter_class(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\filters.py", line 185, in __init__
+    self.lookup_choices = self.field_choices(field, request, model_admin)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\contrib\admin\filters.py", line 222, in field_choices
+    return field.get_choices(include_blank=False, ordering=ordering)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 965, in get_choices
+    return (blank_choice if include_blank else []) + [
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 320, in __iter__
+    self._fetch_all()
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ERREUR:  la relation « project_client » n'existe pas
+LINE 1: ...pdated", "project_client"."sales_contact_id" FROM "project_c...
+                                                             ^
+
+ERROR 2022-06-01 23:21:49,533 basehttp 18420 18628 "GET /admin/project/contract/ HTTP/1.1" 500 198844
+INFO 2022-06-01 23:26:39,752 autoreload 18064 19632 Watching for file changes with StatReloader
+INFO 2022-06-01 23:26:40,596 basehttp 18064 21808 "GET /admin/project/contract/ HTTP/1.1" 200 7006
+INFO 2022-06-01 23:26:40,830 basehttp 18064 14424 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:26:44,974 basehttp 18064 14424 "GET /admin/project/client/ HTTP/1.1" 200 6966
+INFO 2022-06-01 23:26:45,086 basehttp 18064 14424 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:26:46,889 basehttp 18064 14424 "GET /admin/project/contract/ HTTP/1.1" 200 7006
+INFO 2022-06-01 23:26:47,001 basehttp 18064 14424 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:26:48,517 basehttp 18064 14424 "GET /admin/project/event/ HTTP/1.1" 200 6760
+INFO 2022-06-01 23:26:48,780 basehttp 18064 14424 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:26:51,557 basehttp 18064 14424 "GET /admin/project/client/ HTTP/1.1" 200 6966
+INFO 2022-06-01 23:26:51,676 basehttp 18064 14424 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:27:04,748 basehttp 18064 21876 "GET /admin/authentication/user/ HTTP/1.1" 200 13542
+INFO 2022-06-01 23:27:04,857 basehttp 18064 21876 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:27:11,029 basehttp 18064 21876 "GET /admin/auth/group/ HTTP/1.1" 200 7834
+INFO 2022-06-01 23:27:11,153 basehttp 18064 21876 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:27:15,135 basehttp 18064 21876 "GET /admin/project/client/ HTTP/1.1" 200 6966
+INFO 2022-06-01 23:27:15,252 basehttp 18064 21876 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:27:16,831 basehttp 18064 21876 "GET /admin/project/contract/ HTTP/1.1" 200 7006
+INFO 2022-06-01 23:27:16,958 basehttp 18064 21876 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:27:18,567 basehttp 18064 21876 "GET /admin/project/event/ HTTP/1.1" 200 6760
+INFO 2022-06-01 23:27:18,695 basehttp 18064 21876 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2022-06-01 23:27:50,739 log 18064 15572 Unauthorized: /api/clients/
+WARNING 2022-06-01 23:27:50,740 basehttp 18064 15572 "GET /api/clients/ HTTP/1.1" 401 183
+INFO 2022-06-01 23:27:54,620 basehttp 18064 15572 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 23:27:58,176 basehttp 18064 15572 "GET /api/clients/ HTTP/1.1" 200 2
+INFO 2022-06-01 23:28:12,711 basehttp 18064 2740 "GET /admin/authentication/user/ HTTP/1.1" 200 13542
+INFO 2022-06-01 23:28:12,848 basehttp 18064 2740 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:28:17,435 basehttp 18064 14616 "GET /admin/authentication/user/?groups__id__exact=2 HTTP/1.1" 200 11802
+INFO 2022-06-01 23:28:17,698 basehttp 18064 14616 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:28:47,525 basehttp 18064 15572 "POST /api/clients/ HTTP/1.1" 201 152
+INFO 2022-06-01 23:29:27,326 basehttp 18064 15572 "POST /api/login/ HTTP/1.1" 200 486
+INFO 2022-06-01 23:31:18,939 basehttp 18064 15572 "POST /api/clients/ HTTP/1.1" 201 175
+INFO 2022-06-01 23:31:46,860 basehttp 18064 15572 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 23:33:07,930 basehttp 18064 15572 "POST /api/clients/ HTTP/1.1" 201 173
+INFO 2022-06-01 23:33:27,542 basehttp 18064 15572 "GET /api/events/ HTTP/1.1" 200 2
+WARNING 2022-06-01 23:33:32,654 log 18064 15572 Method Not Allowed: /api/events/1
+WARNING 2022-06-01 23:33:32,655 basehttp 18064 15572 "GET /api/events/1 HTTP/1.1" 405 40
+WARNING 2022-06-01 23:33:44,195 log 18064 15572 Not Found: /api/events/1/
+WARNING 2022-06-01 23:33:44,196 basehttp 18064 15572 "GET /api/events/1/ HTTP/1.1" 404 4372
+INFO 2022-06-01 23:36:16,578 autoreload 18064 19632 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-01 23:36:18,154 autoreload 22308 17104 Watching for file changes with StatReloader
+WARNING 2022-06-01 23:36:19,882 log 22308 11876 Not Found: /api/events/1/
+WARNING 2022-06-01 23:36:19,883 basehttp 22308 11876 "GET /api/events/1/ HTTP/1.1" 404 4372
+INFO 2022-06-01 23:37:30,184 autoreload 11180 15592 Watching for file changes with StatReloader
+WARNING 2022-06-01 23:37:32,812 log 11180 16552 Not Found: /api/events/1/
+WARNING 2022-06-01 23:37:32,813 basehttp 11180 16552 "GET /api/events/1/ HTTP/1.1" 404 4372
+WARNING 2022-06-01 23:37:37,158 log 11180 16552 Unauthorized: /api/events/1
+WARNING 2022-06-01 23:37:37,159 basehttp 11180 16552 "GET /api/events/1 HTTP/1.1" 401 183
+INFO 2022-06-01 23:37:40,999 basehttp 11180 16552 "POST /api/login/ HTTP/1.1" 200 483
+WARNING 2022-06-01 23:37:44,144 log 11180 16552 Not Found: /api/events/1
+WARNING 2022-06-01 23:37:44,144 basehttp 11180 16552 "GET /api/events/1 HTTP/1.1" 404 23
+INFO 2022-06-01 23:38:03,957 basehttp 11180 16552 "GET /api/events/ HTTP/1.1" 200 2
+INFO 2022-06-01 23:38:23,057 basehttp 11180 16552 "GET /api/contracts/ HTTP/1.1" 200 2
+WARNING 2022-06-01 23:38:53,172 log 11180 16552 Not Found: /api/clients/6/contracts/
+WARNING 2022-06-01 23:38:53,172 basehttp 11180 16552 "POST /api/clients/6/contracts/ HTTP/1.1" 404 23
+ERROR 2022-06-01 23:39:04,223 log 11180 16552 Internal Server Error: /api/clients/1/contracts/
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 110, in post
+    self.check_object_permissions(request, client)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 345, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\permissions.py", line 8, in has_object_permission
+    if view.action in ['list', "retrieve"]:
+AttributeError: 'AddContractView' object has no attribute 'action'
+ERROR 2022-06-01 23:39:04,227 basehttp 11180 16552 "POST /api/clients/1/contracts/ HTTP/1.1" 500 104142
+INFO 2022-06-01 23:43:00,361 autoreload 17660 22144 Watching for file changes with StatReloader
+INFO 2022-06-01 23:43:04,033 basehttp 17660 17432 "POST /api/login/ HTTP/1.1" 200 483
+WARNING 2022-06-01 23:43:11,898 log 17660 17432 Forbidden: /api/clients/1/contracts/
+WARNING 2022-06-01 23:43:11,899 basehttp 17660 17432 "POST /api/clients/1/contracts/ HTTP/1.1" 403 63
+INFO 2022-06-01 23:46:22,481 autoreload 17796 3180 Watching for file changes with StatReloader
+INFO 2022-06-01 23:46:29,197 basehttp 17796 12612 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 23:46:33,177 basehttp 17796 12612 "POST /api/clients/1/contracts/ HTTP/1.1" 201 170
+INFO 2022-06-01 23:47:12,849 basehttp 17796 12612 "POST /api/clients/1/contracts/1/signed/ HTTP/1.1" 200 187
+INFO 2022-06-01 23:48:10,141 autoreload 17796 3180 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-01 23:48:11,780 autoreload 18320 21200 Watching for file changes with StatReloader
+INFO 2022-06-01 23:48:12,640 basehttp 18320 14920 "GET /admin/authentication/user/ HTTP/1.1" 200 13542
+INFO 2022-06-01 23:48:12,779 basehttp 18320 14920 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:49:09,490 basehttp 18320 19772 "POST /api/login/ HTTP/1.1" 200 483
+WARNING 2022-06-01 23:49:20,957 log 18320 19772 Forbidden: /api/clients/1/contracts/1
+WARNING 2022-06-01 23:49:20,958 basehttp 18320 19772 "POST /api/clients/1/contracts/1 HTTP/1.1" 403 52
+INFO 2022-06-01 23:52:57,884 autoreload 18320 21200 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-01 23:52:59,192 autoreload 7296 16392 Watching for file changes with StatReloader
+WARNING 2022-06-01 23:53:16,395 log 7296 14088 Bad Request: /api/login/
+WARNING 2022-06-01 23:53:16,397 basehttp 7296 14088 "POST /api/login/ HTTP/1.1" 400 89
+INFO 2022-06-01 23:53:39,518 basehttp 7296 14088 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 23:54:06,972 basehttp 7296 14088 "GET /api/contracts/ HTTP/1.1" 200 171
+INFO 2022-06-01 23:54:16,959 basehttp 7296 14088 "GET /api/contracts/1 HTTP/1.1" 301 0
+INFO 2022-06-01 23:54:17,026 basehttp 7296 14088 "GET /api/contracts/1/ HTTP/1.1" 200 187
+WARNING 2022-06-01 23:55:01,780 log 7296 14088 Forbidden: /api/clients/1/contracts/1
+WARNING 2022-06-01 23:55:01,781 basehttp 7296 14088 "POST /api/clients/1/contracts/1 HTTP/1.1" 403 52
+INFO 2022-06-01 23:55:23,006 basehttp 7296 14088 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 23:55:30,277 basehttp 7296 14088 "POST /api/clients/1/contracts/1 HTTP/1.1" 201 238
+INFO 2022-06-01 23:55:50,876 basehttp 7296 7032 "GET /admin/project/event/ HTTP/1.1" 200 9822
+INFO 2022-06-01 23:55:51,057 basehttp 7296 7032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:55:53,397 basehttp 7296 7032 "GET /admin/project/event/1/change/ HTTP/1.1" 200 12418
+INFO 2022-06-01 23:55:53,568 basehttp 7296 7032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:56:01,631 basehttp 7296 7032 "POST /admin/project/event/1/change/ HTTP/1.1" 302 0
+INFO 2022-06-01 23:56:01,752 basehttp 7296 7032 "GET /admin/project/event/ HTTP/1.1" 200 10040
+INFO 2022-06-01 23:56:01,871 basehttp 7296 7032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-01 23:56:35,805 basehttp 7296 14088 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-01 23:56:44,281 basehttp 7296 14088 "GET /api/clients/ HTTP/1.1" 200 504
+WARNING 2022-06-01 23:57:16,681 log 7296 14088 Forbidden: /api/clients/
+WARNING 2022-06-01 23:57:16,681 basehttp 7296 14088 "POST /api/clients/ HTTP/1.1" 403 52
+WARNING 2022-06-01 23:57:25,047 log 7296 14088 Forbidden: /api/clients/3/
+WARNING 2022-06-01 23:57:25,047 basehttp 7296 14088 "PUT /api/clients/3/ HTTP/1.1" 403 63
+WARNING 2022-06-01 23:57:34,415 log 7296 14088 Forbidden: /api/clients/1/contracts/1/signed/
+WARNING 2022-06-01 23:57:34,416 basehttp 7296 14088 "POST /api/clients/1/contracts/1/signed/ HTTP/1.1" 403 63
+WARNING 2022-06-01 23:57:39,377 log 7296 14088 Forbidden: /api/clients/1/contracts/1
+WARNING 2022-06-01 23:57:39,378 basehttp 7296 14088 "POST /api/clients/1/contracts/1 HTTP/1.1" 403 52
+INFO 2022-06-01 23:58:00,848 basehttp 7296 14088 "GET /api/events/ HTTP/1.1" 200 237
+WARNING 2022-06-01 23:58:56,270 log 7296 14088 Not Found: /api/events/3
+WARNING 2022-06-01 23:58:56,270 basehttp 7296 14088 "PUT /api/events/3 HTTP/1.1" 404 23
+INFO 2022-06-01 23:59:03,068 basehttp 7296 14088 "PUT /api/events/1 HTTP/1.1" 200 253
+INFO 2022-06-01 23:59:12,645 basehttp 7296 14088 "GET /api/events/ HTTP/1.1" 200 255
+INFO 2022-06-01 23:59:51,332 basehttp 7296 14088 "POST /api/filters HTTP/1.1" 200 2
+WARNING 2022-06-02 00:00:00,440 log 7296 14088 Bad Request: /api/filters
+WARNING 2022-06-02 00:00:00,441 basehttp 7296 14088 "POST /api/filters HTTP/1.1" 400 62
+INFO 2022-06-02 00:00:12,689 basehttp 7296 14088 "POST /api/filters HTTP/1.1" 200 2
+WARNING 2022-06-02 00:00:17,461 log 7296 14088 Bad Request: /api/filters
+WARNING 2022-06-02 00:00:17,461 basehttp 7296 14088 "POST /api/filters HTTP/1.1" 400 49
+ERROR 2022-06-02 00:00:33,856 log 7296 14088 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 242, in post
+    events = self.filter_event(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 278, in filter_event
+    client = Client.objects.get(last_name=search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+project.models.Client.DoesNotExist: Client matching query does not exist.
+ERROR 2022-06-02 00:00:33,860 basehttp 7296 14088 "POST /api/filters HTTP/1.1" 500 108400
+INFO 2022-06-02 00:03:22,372 autoreload 7296 16392 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-02 00:03:23,607 autoreload 2428 3596 Watching for file changes with StatReloader
+WARNING 2022-06-02 00:03:24,582 log 2428 10544 Unauthorized: /api/filters
+WARNING 2022-06-02 00:03:24,582 basehttp 2428 10544 "POST /api/filters HTTP/1.1" 401 183
+INFO 2022-06-02 00:03:28,726 basehttp 2428 10544 "POST /api/login/ HTTP/1.1" 200 483
+WARNING 2022-06-02 00:03:34,202 log 2428 10544 Not Found: /api/filters
+WARNING 2022-06-02 00:03:34,202 basehttp 2428 10544 "POST /api/filters HTTP/1.1" 404 23
+ERROR 2022-06-02 00:05:21,820 log 2428 10544 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1892, in get_prep_value
+    return float(value)
+ValueError: could not convert string to float: 'Sonc'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 232, in post
+    contracts = self.filter_contract(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 271, in filter_contract
+    return Contract.objects.filter(amount=search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1894, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'amount' expected a number but got 'Sonc'.
+ERROR 2022-06-02 00:05:21,827 basehttp 2428 10544 "POST /api/filters HTTP/1.1" 500 156753
+INFO 2022-06-02 00:05:31,950 basehttp 2428 10544 "POST /api/filters HTTP/1.1" 200 2
+INFO 2022-06-02 00:11:06,063 autoreload 19860 19008 Watching for file changes with StatReloader
+WARNING 2022-06-02 00:11:15,404 log 19860 13440 Unauthorized: /api/filters
+WARNING 2022-06-02 00:11:15,405 basehttp 19860 13440 "POST /api/filters HTTP/1.1" 401 183
+INFO 2022-06-02 00:11:20,567 basehttp 19860 13440 "POST /api/login/ HTTP/1.1" 200 483
+INFO 2022-06-02 00:11:23,953 basehttp 19860 13440 "POST /api/filters HTTP/1.1" 200 2
+INFO 2022-06-02 00:11:41,896 basehttp 19860 13440 "POST /api/filters HTTP/1.1" 200 2
+INFO 2022-06-02 00:12:02,568 basehttp 19860 13440 "POST /api/filters HTTP/1.1" 200 171
+ERROR 2022-06-02 00:13:16,389 log 19860 13440 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 232, in post
+    contracts = self.filter_contract(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 273, in filter_contract
+    return Contract.objects.filter(date_created=search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1524, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1403, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1506, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2500000” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.']
+ERROR 2022-06-02 00:13:16,396 basehttp 19860 13440 "POST /api/filters HTTP/1.1" 500 161272
+INFO 2022-06-02 00:28:05,877 autoreload 19860 19008 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-02 00:28:07,616 autoreload 15680 18892 Watching for file changes with StatReloader
+INFO 2022-06-02 00:31:57,459 autoreload 12428 14740 Watching for file changes with StatReloader
+WARNING 2022-06-02 00:32:04,268 log 12428 21120 Unauthorized: /api/filters
+WARNING 2022-06-02 00:32:04,269 basehttp 12428 21120 "POST /api/filters HTTP/1.1" 401 183
+INFO 2022-06-02 00:32:08,645 basehttp 12428 21120 "POST /api/login/ HTTP/1.1" 200 483
+ERROR 2022-06-02 00:32:13,706 log 12428 21120 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 232, in post
+    contracts = self.filter_contract(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 273, in filter_contract
+    return Contract.objects.filter(date_created=search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1524, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1403, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1506, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2500000” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.']
+ERROR 2022-06-02 00:32:13,711 basehttp 12428 21120 "POST /api/filters HTTP/1.1" 500 161272
+ERROR 2022-06-02 00:33:54,782 log 12428 21120 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 232, in post
+    contracts = self.filter_contract(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 273, in filter_contract
+    return Contract.objects.filter(date_created=search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1524, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1403, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1506, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2500000” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.']
+ERROR 2022-06-02 00:33:54,784 basehttp 12428 21120 "POST /api/filters HTTP/1.1" 500 161272
+INFO 2022-06-02 00:35:38,447 autoreload 12428 14740 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-02 00:35:39,535 autoreload 14104 19844 Watching for file changes with StatReloader
+INFO 2022-06-02 00:37:31,007 autoreload 2856 14056 Watching for file changes with StatReloader
+WARNING 2022-06-02 00:37:38,427 log 2856 10772 Unauthorized: /api/filters
+WARNING 2022-06-02 00:37:38,428 basehttp 2856 10772 "POST /api/filters HTTP/1.1" 401 183
+INFO 2022-06-02 00:37:42,513 basehttp 2856 10772 "POST /api/login/ HTTP/1.1" 200 483
+ERROR 2022-06-02 00:37:46,713 log 2856 10772 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 232, in post
+    contracts = self.filter_contract(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 273, in filter_contract
+    return Contract.objects.filter(date_created=search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1524, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1403, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1506, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2500000” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.']
+ERROR 2022-06-02 00:37:46,718 basehttp 2856 10772 "POST /api/filters HTTP/1.1" 500 161272
+INFO 2022-06-02 00:41:16,090 autoreload 2856 14056 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-02 00:41:17,551 autoreload 9968 10172 Watching for file changes with StatReloader
+INFO 2022-06-02 00:41:19,366 basehttp 9968 3700 "POST /api/login/ HTTP/1.1" 200 483
+ERROR 2022-06-02 00:41:23,086 log 9968 3700 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 232, in post
+    contracts = self.filter_contract(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 273, in filter_contract
+    return Contract.objects.filter(date_created=search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1524, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1403, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1506, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2500000” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.']
+ERROR 2022-06-02 00:41:23,157 basehttp 9968 3700 "POST /api/filters HTTP/1.1" 500 161272
+INFO 2022-06-02 00:44:41,258 autoreload 9968 10172 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-02 00:44:42,428 autoreload 16708 21440 Watching for file changes with StatReloader
+INFO 2022-06-02 00:45:26,142 autoreload 16708 21440 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-02 00:45:27,688 autoreload 21328 17976 Watching for file changes with StatReloader
+INFO 2022-06-02 00:46:36,779 autoreload 20108 5908 Watching for file changes with StatReloader
+INFO 2022-06-02 00:46:46,073 basehttp 20108 9452 "POST /api/login/ HTTP/1.1" 200 483
+ERROR 2022-06-02 00:46:49,518 log 20108 9452 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 232, in post
+    contracts = self.filter_contract(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 273, in filter_contract
+    return Contract.objects.filter(date_created=search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1524, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1403, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1506, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2500000” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.']
+ERROR 2022-06-02 00:46:49,525 basehttp 20108 9452 "POST /api/filters HTTP/1.1" 500 161272
+INFO 2022-06-02 00:52:52,095 autoreload 13688 19896 Watching for file changes with StatReloader
+INFO 2022-06-02 00:52:59,864 basehttp 13688 11948 "POST /api/login/ HTTP/1.1" 200 483
+ERROR 2022-06-02 00:53:02,663 log 13688 11948 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 234, in post
+    contracts = self.filter_contract(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 275, in filter_contract
+    return Contract.objects.filter(date_created=search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1524, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1403, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1506, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2500000” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.']
+ERROR 2022-06-02 00:53:02,668 basehttp 13688 11948 "POST /api/filters HTTP/1.1" 500 161272
+INFO 2022-06-02 00:54:09,234 autoreload 13688 19896 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-02 00:54:10,357 autoreload 12660 14796 Watching for file changes with StatReloader
+INFO 2022-06-02 00:54:31,417 basehttp 12660 380 "POST /api/filters HTTP/1.1" 200 2
+WARNING 2022-06-02 00:54:55,835 log 12660 380 Bad Request: /api/filters
+WARNING 2022-06-02 00:54:55,835 basehttp 12660 380 "POST /api/filters HTTP/1.1" 400 49
+ERROR 2022-06-02 00:55:24,843 log 12660 380 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 244, in post
+    events = self.filter_event(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 286, in filter_event
+    search =self.validate_date(search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 292, in validate_date
+    valid_date = datetime.datetime.strptime(datetime, format_date)
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR 2022-06-02 00:55:24,846 basehttp 12660 380 "POST /api/filters HTTP/1.1" 500 103744
+INFO 2022-06-02 00:57:39,780 autoreload 12660 14796 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-02 00:57:40,804 autoreload 11380 10952 Watching for file changes with StatReloader
+INFO 2022-06-02 00:58:06,960 autoreload 21920 10508 Watching for file changes with StatReloader
+WARNING 2022-06-02 00:58:15,113 log 21920 6524 Unauthorized: /api/filters
+WARNING 2022-06-02 00:58:15,113 basehttp 21920 6524 "POST /api/filters HTTP/1.1" 401 183
+INFO 2022-06-02 00:58:18,950 basehttp 21920 6524 "POST /api/login/ HTTP/1.1" 200 483
+ERROR 2022-06-02 00:58:22,586 log 21920 6524 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 244, in post
+    events = self.filter_event(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 286, in filter_event
+    search =self.validate_date(search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 292, in validate_date
+    valid_date = datetime.datetime.strptime(datetime, format_date)
+TypeError: strptime() argument 1 must be str, not module
+ERROR 2022-06-02 00:58:22,588 basehttp 21920 6524 "POST /api/filters HTTP/1.1" 500 103500
+INFO 2022-06-02 00:59:28,477 autoreload 4324 16652 Watching for file changes with StatReloader
+INFO 2022-06-02 00:59:34,423 basehttp 4324 17732 "POST /api/login/ HTTP/1.1" 200 483
+ERROR 2022-06-02 00:59:37,083 log 4324 17732 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 244, in post
+    events = self.filter_event(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 287, in filter_event
+    return Event.objects.filter(event_date=search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1524, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1403, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1485, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2022-06-02 00:59:37,090 basehttp 4324 17732 "POST /api/filters HTTP/1.1" 500 163896
+INFO 2022-06-02 01:00:39,184 autoreload 21828 9968 Watching for file changes with StatReloader
+ERROR 2022-06-02 01:00:53,097 log 21828 12164 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 244, in post
+    events = self.filter_event(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 287, in filter_event
+    return Event.objects.filter(event_date=search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\sql\query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1524, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1403, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\db\models\fields\__init__.py", line 1485, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2022-06-02 01:00:53,102 basehttp 21828 12164 "POST /api/filters HTTP/1.1" 500 163901
+INFO 2022-06-02 01:02:30,262 autoreload 16532 13572 Watching for file changes with StatReloader
+ERROR 2022-06-02 01:02:34,126 log 16532 18836 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 244, in post
+    events = self.filter_event(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 286, in filter_event
+    search =self.validate_date(search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 292, in validate_date
+    valid_date = datetime.datetime.strftime(date, format_date)
+TypeError: descriptor 'strftime' for 'datetime.date' objects doesn't apply to a 'str' object
+ERROR 2022-06-02 01:02:34,128 basehttp 16532 18836 "POST /api/filters HTTP/1.1" 500 103914
+INFO 2022-06-02 01:08:30,620 autoreload 22232 20496 Watching for file changes with StatReloader
+INFO 2022-06-02 01:08:33,515 basehttp 22232 12864 "POST /api/login/ HTTP/1.1" 200 483
+ERROR 2022-06-02 01:08:42,166 log 22232 12864 Internal Server Error: /api/filters
+Traceback (most recent call last):
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 244, in post
+    events = self.filter_event(model_field, search_key)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 286, in filter_event
+    search =self.validate_date(search)
+  File "C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py", line 292, in validate_date
+    valid_date = datetime.datetime.strftime(date, format_date)
+TypeError: descriptor 'strftime' for 'datetime.date' objects doesn't apply to a 'str' object
+ERROR 2022-06-02 01:08:42,171 basehttp 22232 12864 "POST /api/filters HTTP/1.1" 500 103950
+INFO 2022-06-02 01:09:06,434 autoreload 22232 20496 C:\Users\Orphée\Desktop\P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM\EPICEVENTS\project\views.py changed, reloading.
+INFO 2022-06-02 01:09:07,548 autoreload 9080 6112 Watching for file changes with StatReloader
+INFO 2022-06-02 01:09:08,853 basehttp 9080 6136 "POST /api/filters HTTP/1.1" 200 255
+INFO 2022-06-02 01:09:16,469 basehttp 9080 6136 "POST /api/filters HTTP/1.1" 200 255
+INFO 2022-06-02 01:09:26,271 basehttp 9080 6136 "POST /api/filters HTTP/1.1" 200 2
+INFO 2022-06-02 01:09:48,185 basehttp 9080 6136 "POST /api/filters HTTP/1.1" 200 255
+INFO 2022-06-02 01:11:35,787 autoreload 9916 9924 Watching for file changes with StatReloader

@@ -5,9 +5,9 @@ class IsSalesContact(permissions.BasePermission):
 
     def has_object_permission(self, request, view, obj):
 
-        if view.action in ['list', "retrieve"]:
+        if request.method in ['list', "retrieve"]:
             return True
-        elif view.action == 'create':
+        elif request.method == 'create':
             return request.user.team == 'SALE'
         return obj.sales_contact == request.user
 

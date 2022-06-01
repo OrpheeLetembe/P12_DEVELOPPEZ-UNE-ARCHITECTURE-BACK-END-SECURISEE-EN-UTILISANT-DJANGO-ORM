@@ -29,7 +29,7 @@ class ContractAdmin(admin.ModelAdmin):
 
 
 class EventAdmin(admin.ModelAdmin):
-    list_display = ('id', 'client', 'contract', 'event_status', 'attendees', 'event_date', 'notes', 'support_contact',
+    list_display = ('client', 'contract', 'event_status', 'attendees', 'event_date', 'support_contact',
                     'date_created', 'date_updated')
     list_filter = ('event_status', 'client', 'support_contact',)
 

@@ -1,4 +1,6 @@
 import logging
+import datetime
+
 from django.shortcuts import get_object_or_404
 from rest_framework import status
 from rest_framework.response import Response
@@ -66,11 +68,8 @@ class ClientDetailView(MiximViews, APIView):
 
     def get(self, request, id):
         client = self.get_client(request, id=id)
-        if client:
-            serializer = ClientDetailSerializer(client)
-            return Response(serializer.data, status=status.HTTP_200_OK)
-        else:
-            return Response("This client does not exist")
+        serializer = ClientDetailSerializer(client)
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
     def put(self, request, id):
         client = self.get_client(request, id=id)
@@ -107,12 +106,13 @@ class AddContractView(MiximViews, APIView):
 
     def post(self, request, id):
         client = self.get_client(request, id=id)
-        self.check_object_permissions(request, client)
-        serializer = ContractListSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save(client=client, sales_contact=request.user)
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        if request.user.team == 'SALE':
+            serializer = ContractListSerializer(data=request.data)
+            if serializer.is_valid():
+                serializer.save(client=client, sales_contact=request.user)
+                return Response(serializer.data, status=status.HTTP_201_CREATED)
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        return Response("You do not have permission to perform this action.", status=status.HTTP_403_FORBIDDEN)
 
 
 class UpdateContractView(MiximViews, APIView):
@@ -126,7 +126,9 @@ class UpdateContractView(MiximViews, APIView):
         """Link an event to a contract if the one is signed and request user is a seller"""
 
         contract = self.get_client_contract(request, client_id, contract_id)
-        if contract.status and request.user.team == 'SALE':
+        if request.user != contract.sales_contact:
+            return Response("You do not have permission to perform this action.", status=status.HTTP_403_FORBIDDEN)
+        if contract.status:
             serializer = EventSerializer(data=request.data)
             if serializer.is_valid():
                 serializer.save(client=contract.client, contract=contract)
@@ -173,6 +175,12 @@ class EventDetailView(APIView):
                - mark that an event is finished.
     """
     permission_classes = [IsSupportContactOrSalesContact]
+
+    def get(self, request, id):
+        events = Event.objects.all()
+        event = get_object_or_404(events, id=id)
+        serializer = EventSerializer(event)
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
     def put(self, request, id):
         events = Event.objects.all()
@@ -261,7 +269,7 @@ class FilterView(APIView):
             client = get_object_or_404(Client, email=search)
             return Contract.objects.filter(client=client)
 
-        if field == 'amount':
+        if field == 'amount' and search.isdigit():
             return Contract.objects.filter(amount=search)
         if field == 'date_created':
             return Contract.objects.filter(date_created=search)
@@ -269,13 +277,15 @@ class FilterView(APIView):
     def filter_event(self, field, search):
         """ Method for performing event filters"""
         if field == 'last_name':
-            client = Client.objects.get(last_name=search)
+            client = get_object_or_404(Client, last_name=search)
             return Event.objects.filter(client=client)
         if field == 'email':
-            client = Client.objects.get(email=search)
+            client = get_object_or_404(Client, email=search)
             return Event.objects.filter(client=client)
         if field == 'event_date':
             return Event.objects.filter(event_date=search)
+
+
 
 
 

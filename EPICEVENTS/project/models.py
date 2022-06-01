@@ -51,7 +51,7 @@ class Event(models.Model):
                                         limit_choices_to={"team": "SUPPORT"})
 
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
-    contract = models.ForeignKey(Contract, on_delete=models.CASCADE, limit_choices_to={"status": True})
+    contract = models.OneToOneField(Contract, on_delete=models.CASCADE, limit_choices_to={"status": True})
 
     def close(self):
         if self.event_status is True:

@@ -150,6 +150,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+
 REST_FRAMEWORK = {
 
     'DEFAULT_AUTHENTICATION_CLASSES':
@@ -171,7 +172,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',
             'class': 'logging.FileHandler',
-            'filename': './logs/debug7.log',
+            'filename': './logs/debug.log',
             'formatter': 'simple',
         }
     },

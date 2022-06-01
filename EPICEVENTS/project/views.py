@@ -48,7 +48,7 @@ class ClientListView(MiximViews, APIView):
 
     def post(self, request):
         user = request.user
-        if user.team == 'SALE':
+        if user.groups.filter(name='Sale').exists():
             serializer = ClientListSerializer(data=request.data)
             if serializer.is_valid():
                 serializer.save(sales_contact=request.user)
@@ -65,12 +65,9 @@ class ClientDetailView(MiximViews, APIView):
     """
 
     def get(self, request, id):
-        client = self.get_client(request, id=id)
-        if client:
-            serializer = ClientDetailSerializer(client)
-            return Response(serializer.data, status=status.HTTP_200_OK)
-        else:
-            return Response("This client does not exist")
+        client = self.get_client(request, id)
+        serializer = ClientDetailSerializer(client)
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
     def put(self, request, id):
         client = self.get_client(request, id=id)
@@ -254,13 +251,13 @@ class FilterView(APIView):
 
     def filter_contract(self, field, search):
         """ Method for performing contract filters"""
+
         if field == 'last_name':
             client = get_object_or_404(Client, last_name=search)
             return Contract.objects.filter(client=client)
         if field == 'email':
             client = get_object_or_404(Client, email=search)
             return Contract.objects.filter(client=client)
-
         if field == 'amount':
             return Contract.objects.filter(amount=search)
         if field == 'date_created':
@@ -268,6 +265,7 @@ class FilterView(APIView):
 
     def filter_event(self, field, search):
         """ Method for performing event filters"""
+
         if field == 'last_name':
             client = Client.objects.get(last_name=search)
             return Event.objects.filter(client=client)

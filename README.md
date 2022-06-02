@@ -58,7 +58,7 @@ Le système mis en place devra répondre aux exigences fonctionnelles suivants :
 - `$ source env/bin/activate` sous macos ou linux.
 
 5	Installez les dépendances du projet avec la commande `$ pip install -r requirements.txt`
-6	Le CRM utilise PostgreSQL vous devez donc configurer le système de base de données dans le fichier setting du projet
+6	Le CRM utilise PostgreSQL vous devez donc configurer le système de base de données dans le fichier setting du projet. Vous trouverez [ici](https://docs.djangoproject.com/fr/4.0/ref/databases/#postgresql-notes) la prcédure à suivre pour la configuration.
 
 Démarrer le serveur avec $ python manage.py runserver
 

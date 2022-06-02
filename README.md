@@ -87,6 +87,12 @@ L’API peut être interrogée à partir des points d'entrée commençant par l'
 
 
 
+Vous trouverez une documentation plus formelle via le lien ci-dessous:
+
+https://documenter.getpostman.com/view/17381969/Uz5FJGde
+
+
+
 
 
 

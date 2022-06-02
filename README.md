@@ -59,12 +59,13 @@ Le système mis en place devra répondre aux exigences fonctionnelles suivants :
 
 5	Installez les dépendances du projet avec la commande `$ pip install -r requirements.txt`
 6	Le CRM utilise PostgreSQL vous devez donc configurer le système de base de données dans le fichier setting du projet. Vous trouverez [ici](https://docs.djangoproject.com/fr/4.0/ref/databases/#postgresql-notes) la prcédure à suivre pour la configuration.
+7 Créer d'un dossier logs à la racine du projet afin de contenir le fichier de logging.
+8 Créer un super utilisateur avec la commande '$ python manage.py createsuperuser'
+9 Démarrer le serveur avec $ python manage.py runserver
 
-Démarrer le serveur avec $ python manage.py runserver
+Les étapes 1 à 8 ne sont requises que pour l'installation initiale. Pour les lancements ultérieurs de l'application, il suffit d'exécuter l’étape 9 à partir du répertoire racine du projet.
 
-Les étapes 1 à 5 ne sont requises que pour l'installation initiale. Pour les lancements ultérieurs de l'application, il suffit d'exécuter l’étape 6 à partir du répertoire racine du projet.
-
-Une fois que vous avez lancé le serveur, les utilisateurs autorisés peuvent se connecter à l’interface de gestion du CRM via l'url de base http://127.0.0.1:8000/admin.
+Une fois que vous avez lancé le serveur, le super utilisateur peut se connecter à l’interface de gestion du CRM via l'url de base http://127.0.0.1:8000/admin.
 L’API peut être interrogée à partir des points d'entrée commençant par l'url de base http://127.0.0.1:8000/api/
 
 

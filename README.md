@@ -58,7 +58,9 @@ Le système mis en place devra répondre aux exigences fonctionnelles suivants :
 - `$ source env/bin/activate` sous macos ou linux.
 
 5	Installez les dépendances du projet avec la commande `$ pip install -r requirements.txt`
-6	 Démarrer le serveur avec $ python manage.py runserver
+6	Le CRM utilise PostgreSQL vous devez donc configurer le système de base de données dans le fichier setting du projet
+
+Démarrer le serveur avec $ python manage.py runserver
 
 Les étapes 1 à 5 ne sont requises que pour l'installation initiale. Pour les lancements ultérieurs de l'application, il suffit d'exécuter l’étape 6 à partir du répertoire racine du projet.
 

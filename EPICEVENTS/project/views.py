@@ -106,7 +106,7 @@ class AddContractView(MiximViews, APIView):
 
     def post(self, request, id):
         client = self.get_client(request, id=id)
-        if request.user.team == 'SALE':
+        if request.user == client.sales_contact:
             serializer = ContractListSerializer(data=request.data)
             if serializer.is_valid():
                 serializer.save(client=client, sales_contact=request.user)
@@ -290,6 +290,11 @@ class FilterView(APIView):
                 return Event.objects.filter(event_date=search)
 
     def check_date(self, value):
+        """
+        This function verifies that the user’s entry is in date format,
+        when searching for a contract or event
+        """
+
         format_date = '%Y-%m-%dT%H:%M:%S.%fZ'
         try:
             valid_date = datetime.datetime.strptime(value, format_date)

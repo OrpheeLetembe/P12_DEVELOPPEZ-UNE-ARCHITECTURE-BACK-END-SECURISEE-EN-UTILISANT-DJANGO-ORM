@@ -35,8 +35,9 @@ class EventAdmin(admin.ModelAdmin):
 
     fieldsets = (
         (None, {'fields': ('client', 'contract')}),
+        ('Staff', {'fields': ('support_contact',)}),
         ('Event info', {'fields': ('event_date', 'attendees', 'notes', 'event_status')}),
-        ('Staff', {'fields': ('support_contact',)})
+
     )
 
 

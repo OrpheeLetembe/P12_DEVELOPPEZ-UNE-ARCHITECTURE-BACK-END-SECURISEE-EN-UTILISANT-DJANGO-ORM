@@ -43,29 +43,29 @@ Le système mis en place devra répondre aux exigences fonctionnelles suivants :
 
 # Installation et exécution de l'application 
 
-1	Cloner ce dépôt de code à l'aide de la commande ‘$ git clone clone https://github.com/OrpheeLetembe/P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM.git
+1-	Cloner ce dépôt de code à l'aide de la commande ‘$ git clone clone https://github.com/OrpheeLetembe/P12_DEVELOPPEZ-UNE-ARCHITECTURE-BACK-END-SECURISEE-EN-UTILISANT-DJANGO-ORM.git
 
-2	 Rendez-vous depuis un terminal à la racine du répertoire du projet 
+2-	 Rendez-vous depuis un terminal à la racine du répertoire du projet 
 
-3	Créer un environnement virtuel pour le projet avec la commande :
+3-	Créer un environnement virtuel pour le projet avec la commande :
 
 - `$ python -m venv env` sous windows 
 - `$ python3 -m venv env` sous macos ou linux.
 
-4	Activez l'environnement virtuel avec la commande
+4-	Activez l'environnement virtuel avec la commande
 
 - `$ env\Scripts\activate` sous windows 
 - `$ source env/bin/activate` sous macos ou linux.
 
-5	Installez les dépendances du projet avec la commande `$ pip install -r requirements.txt`
+5-	Installez les dépendances du projet avec la commande `$ pip install -r requirements.txt`
 
-6	Le CRM utilise PostgreSQL vous devez donc configurer le système de base de données dans le fichier setting du projet. Vous trouverez [ici](https://docs.djangoproject.com/fr/4.0/ref/databases/#postgresql-notes) la prcédure à suivre pour la configuration.
+6-	Le CRM utilise PostgreSQL vous devez donc configurer le système de base de données dans le fichier setting du projet. Vous trouverez [ici](https://docs.djangoproject.com/fr/4.0/ref/databases/#postgresql-notes) la prcédure à suivre pour la configuration.
 
-7 Créer d'un dossier logs à la racine du projet afin de contenir le fichier de logging.
+7- Créer d'un dossier logs à la racine du projet afin de contenir le fichier de logging.
 
-8 Créer un super utilisateur avec la commande '$ python manage.py createsuperuser'
+8- Créer un super utilisateur avec la commande '$ python manage.py createsuperuser'
 
-9 Démarrer le serveur avec $ python manage.py runserver
+9- Démarrer le serveur avec $ python manage.py runserver
 
 Les étapes 1 à 8 ne sont requises que pour l'installation initiale. Pour les lancements ultérieurs de l'application, il suffit d'exécuter l’étape 9 à partir du répertoire racine du projet.
 
